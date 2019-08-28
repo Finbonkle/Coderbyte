@@ -1,8 +1,8 @@
-package javaFirstfactorial;
 import java.util.Scanner;
 
-public class javaFirstfactorial {
-	public static void main()
+public class javaFirstfactorial
+{
+	public static void main(String args[])
 	{
 		// get a string from the user
 		System.out.println("Enter an integer below");
@@ -15,7 +15,7 @@ public class javaFirstfactorial {
 		usrObj.close();
 		
 		int product = 1;
-		for (int i = 0; i < usrNum; i++)
+		for (int i = 1; i <= usrNum; i++)
 			product *= i;
 		
 		System.out.println("Product is: " + product);

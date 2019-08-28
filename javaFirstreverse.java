@@ -2,10 +2,10 @@
 // https://www.w3schools.com/java/java_user_input.asp
 
 
-package javaFirstreverse;
 import java.util.Scanner;
 
-public class javaFirstreverse {
+public class javaFirstreverse
+{
 	public static void main(String args[]) 
     { 
         // get a string from the user
