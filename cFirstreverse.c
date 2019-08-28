@@ -21,7 +21,7 @@ void FirstReverse(char pStr[]) {
 
 	newString[i] = '\0';
 
-	printf("string is %d chars long and backwards: %s", howLong, newString);
+	printf("string backwards: %s", newString);
 
 }
 
